@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Pocket_Cafe</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Pocket_cafe.css">
+    <script src="Pocket_cafe.js"></script>
+</head>
+<body>
+    <nav class="navigation_1">
+        <div class="navigation_2">
+            <ul>
+                <li><a href="restaurant.html">Home</a></li>
+                <li><a href="">Log In</a></li>
+                <li><a href="">Sign Up</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Customize</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="box">
+        <div class="left"><img src="images/rest_1.jpg" alt="Restaurant_image"></div>
+        <div class="right">
+            <div class="inner_right">
+                <marquee id="off">10% OFF UPTO 199 Grab Fast</marquee>
+                <div class="inner_right_1">
+                    <div class="cart">
+                        <div class="cart_left"><p>Burger with Extra Cheese X 1</p></div>
+                        <div class="cart_middle"><p>69.99 Rs.</p></div>
+                        <div class="cart_right">
+                            <button class="negative" onclick="CounterSub();">-</button>
+                            <div class="quant"><p id="demo">0</p></div>
+                            <button class="addition" onclick="CounterAdd();">+</button>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart_left"><p>Peri Peri French Fries X 1</p></div>
+                        <div class="cart_middle"><p>79.99 Rs.</p></div>
+                        <div class="cart_right">
+                            <button class="negative" onclick="CounterSub();">-</button>
+                            <div class="quant"><p id="demo2">0</p></div>
+                            <button class="addition" onclick="CounterAdd();">+</button>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart_left"><p>Pinapple Pizza X 1</p></div>
+                        <div class="cart_middle"><p>149.99 Rs.</p></div>
+                        <div class="cart_right">
+                            <button class="negative" onclick="CounterSub();">-</button>
+                            <div class="quant"><p id="demo3">0</p></div>
+                            <button class="addition" onclick="CounterAdd();">+</button>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart_left"><p>Combo (coke X 1,Burger X 1)</p></div>
+                        <div class="cart_middle"><p>139.99 Rs</p></div>
+                        <div class="cart_right">
+                            <button class="negative" onclick="CounterSub();">-</button>
+                            <div class="quant"><p id="demo4">0</p></div>
+                            <button class="addition" onclick="CounterAdd();">+</button>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart_left"><p>Combo (coke X 1, Pizza X 1)</p></div>
+                        <div class="cart_middle"><p>179.99 Rs</p></div>
+                        <div class="cart_right">
+                            <button class="negative" onclick="CounterSub();">-</button>
+                            <div class="quant"><p id="demo5">0</p></div>
+                            <button class="addition" onclick="CounterAdd();">+</button>
+                        </div>
+                    </div>
+                    <div class="more_outer">
+                        <div class="more"><a href="#menu_outer">MORE MENU</a></div>
+                        <button class="order">Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu_outer" id="menu_outer">
+        <div class="menu_inner_top">
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/burger_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍔 Juicy Beef Burger 🍔
+                    <br>Savor the perfection!<br>
+                    Price: 65.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/pizza_1.jpeg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍕Classic Cheese Pizza 🍕
+                    <br>Cheesy in every slice!<br>
+                    Price: 98.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/fries_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍟 Crispy Golden Fries 🍟
+                    <br>Irresistibly crunchy!<br>
+                    Price: 79.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/Mohito_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍹 Refreshing Mojito 🍹
+                    <br>Cool minty bliss!<br>
+                    Price: 44.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/Cold-coffee_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">☕️ Chilled Coffee ☕️
+                    <br>Perfect pick-me-up!<br>
+                    Price: 49.99 Rs.</div>
+            </div>
+        </div>
+        <div class="menu_inner_top">
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/chicken_pizza_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍗Tasty Chicken Pizza🍗
+                    <br> Loaded with flavor!<br>
+                    Price: 150.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/grill_sandwich_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🥪 Grilled Sandwich 🥪
+                    <br> Goodness in every bite!<br>
+                    Price: 56.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/maggi_1.jpeg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍜 Maggi Noodles 🍜
+                    <br>Instant comfort!<br>
+                    Price: 49.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/sandwitch_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🥪 Classic Sandwich 🥪
+                    <br>Simple and satisfying!<br>
+                    Price: 59.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/orange_mohito_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍊 Orange Mojito 🍊
+                    <br>Tangy twist on a classic!<br>
+                    Price: 79.99 Rs.</div>
+            </div>
+        </div>
+        <div class="menu_inner_top">
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/burger_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍔 Juicy Beef Burger 🍔
+                    <br>Savor the perfection!<br>
+                    Price: 65.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/pizza_1.jpeg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍕Classic Cheese Pizza 🍕
+                    <br>Cheesy in every slice!<br>
+                    Price: 98.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/fries_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍟 Crispy Golden Fries 🍟
+                    <br>Irresistibly crunchy!<br>
+                    Price: 79.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/Mohito_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">🍹 Refreshing Mojito 🍹
+                    <br>Cool minty bliss!<br>
+                    Price: 44.99 Rs.</div>
+            </div>
+            <div class="cart_1">
+                <div class="cart_1_pic"><img src="images/Cold-coffee_1.jpg" alt="" style="height: 100%; width: 100%;"></div>
+                <div class="cart_1_text">☕️ Chilled Coffee ☕️
+                    <br>Perfect pick-me-up!<br>
+                    Price: 49.99 Rs.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
